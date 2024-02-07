@@ -26,7 +26,7 @@ Read more about repositories [here](https://docs.github.com/en/github/creating-c
 
 ### Pull requests
 
-Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add more changes if need be. 
+Pullrequests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add more changes if need be. 
 
 Adding someone as a reviewer on your pull request is a signal to them that you want help or would like them to review the content. 
 
