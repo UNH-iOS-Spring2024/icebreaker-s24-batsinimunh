@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		108648212B8D064700EB6083 /* Icebreaker_AyyappaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108648202B8D064700EB6083 /* Icebreaker_AyyappaApp.swift */; };
+		108648232B8D064700EB6083 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108648222B8D064700EB6083 /* ContentView.swift */; };
+		108648252B8D064800EB6083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108648242B8D064800EB6083 /* Assets.xcassets */; };
+		108648282B8D064800EB6083 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 108648272B8D064800EB6083 /* Preview Assets.xcassets */; };
+		108648322B8D064800EB6083 /* Icebreaker_AyyappaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108648312B8D064800EB6083 /* Icebreaker_AyyappaTests.swift */; };
+		1086483C2B8D064800EB6083 /* Icebreaker_AyyappaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1086483B2B8D064800EB6083 /* Icebreaker_AyyappaUITests.swift */; };
+		1086483E2B8D064800EB6083 /* Icebreaker_AyyappaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1086483D2B8D064800EB6083 /* Icebreaker_AyyappaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1086482E2B8D064800EB6083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108648152B8D064700EB6083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1086481C2B8D064700EB6083;
+			remoteInfo = "Icebreaker-Ayyappa";
+		};
+		108648382B8D064800EB6083 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 108648152B8D064700EB6083 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1086481C2B8D064700EB6083;
+			remoteInfo = "Icebreaker-Ayyappa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1086481D2B8D064700EB6083 /* Icebreaker-Ayyappa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Icebreaker-Ayyappa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108648202B8D064700EB6083 /* Icebreaker_AyyappaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icebreaker_AyyappaApp.swift; sourceTree = "<group>"; };
+		108648222B8D064700EB6083 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		108648242B8D064800EB6083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		108648272B8D064800EB6083 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1086482D2B8D064800EB6083 /* Icebreaker-AyyappaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Icebreaker-AyyappaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		108648312B8D064800EB6083 /* Icebreaker_AyyappaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icebreaker_AyyappaTests.swift; sourceTree = "<group>"; };
+		108648372B8D064800EB6083 /* Icebreaker-AyyappaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Icebreaker-AyyappaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1086483B2B8D064800EB6083 /* Icebreaker_AyyappaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icebreaker_AyyappaUITests.swift; sourceTree = "<group>"; };
+		1086483D2B8D064800EB6083 /* Icebreaker_AyyappaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icebreaker_AyyappaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1086481A2B8D064700EB6083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1086482A2B8D064800EB6083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108648342B8D064800EB6083 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108648142B8D064700EB6083 = {
+			isa = PBXGroup;
+			children = (
+				1086481F2B8D064700EB6083 /* Icebreaker-Ayyappa */,
+				108648302B8D064800EB6083 /* Icebreaker-AyyappaTests */,
+				1086483A2B8D064800EB6083 /* Icebreaker-AyyappaUITests */,
+				1086481E2B8D064700EB6083 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1086481E2B8D064700EB6083 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1086481D2B8D064700EB6083 /* Icebreaker-Ayyappa.app */,
+				1086482D2B8D064800EB6083 /* Icebreaker-AyyappaTests.xctest */,
+				108648372B8D064800EB6083 /* Icebreaker-AyyappaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1086481F2B8D064700EB6083 /* Icebreaker-Ayyappa */ = {
+			isa = PBXGroup;
+			children = (
+				108648202B8D064700EB6083 /* Icebreaker_AyyappaApp.swift */,
+				108648222B8D064700EB6083 /* ContentView.swift */,
+				108648242B8D064800EB6083 /* Assets.xcassets */,
+				108648262B8D064800EB6083 /* Preview Content */,
+			);
+			path = "Icebreaker-Ayyappa";
+			sourceTree = "<group>";
+		};
+		108648262B8D064800EB6083 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				108648272B8D064800EB6083 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		108648302B8D064800EB6083 /* Icebreaker-AyyappaTests */ = {
+			isa = PBXGroup;
+			children = (
+				108648312B8D064800EB6083 /* Icebreaker_AyyappaTests.swift */,
+			);
+			path = "Icebreaker-AyyappaTests";
+			sourceTree = "<group>";
+		};
+		1086483A2B8D064800EB6083 /* Icebreaker-AyyappaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1086483B2B8D064800EB6083 /* Icebreaker_AyyappaUITests.swift */,
+				1086483D2B8D064800EB6083 /* Icebreaker_AyyappaUITestsLaunchTests.swift */,
+			);
+			path = "Icebreaker-AyyappaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1086481C2B8D064700EB6083 /* Icebreaker-Ayyappa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108648412B8D064800EB6083 /* Build configuration list for PBXNativeTarget "Icebreaker-Ayyappa" */;
+			buildPhases = (
+				108648192B8D064700EB6083 /* Sources */,
+				1086481A2B8D064700EB6083 /* Frameworks */,
+				1086481B2B8D064700EB6083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Icebreaker-Ayyappa";
+			productName = "Icebreaker-Ayyappa";
+			productReference = 1086481D2B8D064700EB6083 /* Icebreaker-Ayyappa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1086482C2B8D064800EB6083 /* Icebreaker-AyyappaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108648442B8D064800EB6083 /* Build configuration list for PBXNativeTarget "Icebreaker-AyyappaTests" */;
+			buildPhases = (
+				108648292B8D064800EB6083 /* Sources */,
+				1086482A2B8D064800EB6083 /* Frameworks */,
+				1086482B2B8D064800EB6083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1086482F2B8D064800EB6083 /* PBXTargetDependency */,
+			);
+			name = "Icebreaker-AyyappaTests";
+			productName = "Icebreaker-AyyappaTests";
+			productReference = 1086482D2B8D064800EB6083 /* Icebreaker-AyyappaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		108648362B8D064800EB6083 /* Icebreaker-AyyappaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 108648472B8D064800EB6083 /* Build configuration list for PBXNativeTarget "Icebreaker-AyyappaUITests" */;
+			buildPhases = (
+				108648332B8D064800EB6083 /* Sources */,
+				108648342B8D064800EB6083 /* Frameworks */,
+				108648352B8D064800EB6083 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				108648392B8D064800EB6083 /* PBXTargetDependency */,
+			);
+			name = "Icebreaker-AyyappaUITests";
+			productName = "Icebreaker-AyyappaUITests";
+			productReference = 108648372B8D064800EB6083 /* Icebreaker-AyyappaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		108648152B8D064700EB6083 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					1086481C2B8D064700EB6083 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					1086482C2B8D064800EB6083 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1086481C2B8D064700EB6083;
+					};
+					108648362B8D064800EB6083 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 1086481C2B8D064700EB6083;
+					};
+				};
+			};
+			buildConfigurationList = 108648182B8D064700EB6083 /* Build configuration list for PBXProject "Icebreaker-Ayyappa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 108648142B8D064700EB6083;
+			productRefGroup = 1086481E2B8D064700EB6083 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1086481C2B8D064700EB6083 /* Icebreaker-Ayyappa */,
+				1086482C2B8D064800EB6083 /* Icebreaker-AyyappaTests */,
+				108648362B8D064800EB6083 /* Icebreaker-AyyappaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1086481B2B8D064700EB6083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108648282B8D064800EB6083 /* Preview Assets.xcassets in Resources */,
+				108648252B8D064800EB6083 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1086482B2B8D064800EB6083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108648352B8D064800EB6083 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108648192B8D064700EB6083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108648232B8D064700EB6083 /* ContentView.swift in Sources */,
+				108648212B8D064700EB6083 /* Icebreaker_AyyappaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108648292B8D064800EB6083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108648322B8D064800EB6083 /* Icebreaker_AyyappaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		108648332B8D064800EB6083 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1086483C2B8D064800EB6083 /* Icebreaker_AyyappaUITests.swift in Sources */,
+				1086483E2B8D064800EB6083 /* Icebreaker_AyyappaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1086482F2B8D064800EB6083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1086481C2B8D064700EB6083 /* Icebreaker-Ayyappa */;
+			targetProxy = 1086482E2B8D064800EB6083 /* PBXContainerItemProxy */;
+		};
+		108648392B8D064800EB6083 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1086481C2B8D064700EB6083 /* Icebreaker-Ayyappa */;
+			targetProxy = 108648382B8D064800EB6083 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1086483F2B8D064800EB6083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		108648402B8D064800EB6083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		108648422B8D064800EB6083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Icebreaker-Ayyappa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.batisnim.Icebreaker-Ayyappa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		108648432B8D064800EB6083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Icebreaker-Ayyappa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.batisnim.Icebreaker-Ayyappa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		108648452B8D064800EB6083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.batisnim.Icebreaker-AyyappaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Icebreaker-Ayyappa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Icebreaker-Ayyappa";
+			};
+			name = Debug;
+		};
+		108648462B8D064800EB6083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.batisnim.Icebreaker-AyyappaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Icebreaker-Ayyappa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Icebreaker-Ayyappa";
+			};
+			name = Release;
+		};
+		108648482B8D064800EB6083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.batisnim.Icebreaker-AyyappaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Icebreaker-Ayyappa";
+			};
+			name = Debug;
+		};
+		108648492B8D064800EB6083 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.batisnim.Icebreaker-AyyappaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Icebreaker-Ayyappa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		108648182B8D064700EB6083 /* Build configuration list for PBXProject "Icebreaker-Ayyappa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1086483F2B8D064800EB6083 /* Debug */,
+				108648402B8D064800EB6083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108648412B8D064800EB6083 /* Build configuration list for PBXNativeTarget "Icebreaker-Ayyappa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108648422B8D064800EB6083 /* Debug */,
+				108648432B8D064800EB6083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108648442B8D064800EB6083 /* Build configuration list for PBXNativeTarget "Icebreaker-AyyappaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108648452B8D064800EB6083 /* Debug */,
+				108648462B8D064800EB6083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		108648472B8D064800EB6083 /* Build configuration list for PBXNativeTarget "Icebreaker-AyyappaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				108648482B8D064800EB6083 /* Debug */,
+				108648492B8D064800EB6083 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 108648152B8D064700EB6083 /* Project object */;
+}
